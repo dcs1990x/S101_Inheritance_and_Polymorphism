@@ -1,4 +1,4 @@
-package Level_1.sprint1Tasca1_1_Nivell1_ex1;
+package Level_1.Exercise_1.model;
 
 public class StringInstrument extends Instrument {
 

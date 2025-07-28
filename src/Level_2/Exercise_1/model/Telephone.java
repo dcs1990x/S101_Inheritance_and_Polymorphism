@@ -1,4 +1,4 @@
-package Level_2.sprint1Tasca1_1_Nivell2_ex1;
+package Level_2.Exercise_1.model;
 
 public class Telephone {
 

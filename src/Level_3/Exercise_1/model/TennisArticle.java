@@ -1,4 +1,4 @@
-package Level_3.sprint1Tasca1_1_Nivell3_ex1;
+package Level_3.Exercise_1.model;
 
 public class TennisArticle extends Article {
 

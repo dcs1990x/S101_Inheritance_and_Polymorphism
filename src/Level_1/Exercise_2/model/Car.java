@@ -1,4 +1,4 @@
-package Level_1.sprint1Tasca1_1_Nivell1_ex2;
+package Level_1.Exercise_2.model;
 
 public class Car {
 
