@@ -1,8 +1,8 @@
-package Level_2.sprint1Tasca1_1_Nivell2_ex1;
+package Level_2.Exercise_1.model;
 
-public class Main {
+public class RunMain {
 
-    public static void main(String[] args) {
+    public static void run() {
 
         Smartphone mobilePhone = new Smartphone("OnePlus", "Nord 100");
 

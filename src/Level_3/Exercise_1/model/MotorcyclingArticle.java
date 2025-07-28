@@ -1,10 +1,10 @@
-package Level_3.sprint1Tasca1_1_Nivell3_ex1;
+package Level_3.Exercise_1.model;
 
-public class F1Article extends Article {
+public class MotorcyclingArticle extends Article {
 
     private String team;
 
-    public F1Article(String headline, String team) {
+    public MotorcyclingArticle(String headline, String team) {
         super(headline);
         this.team = team;
     }
@@ -18,7 +18,7 @@ public class F1Article extends Article {
         final int BASE_PRICE = 100;
         int totalPrice = BASE_PRICE;
 
-        if (this.team.equalsIgnoreCase("Ferrari") || this.team.equalsIgnoreCase("Mercedes")) {
+        if (this.team.equalsIgnoreCase("Honda") || this.team.equalsIgnoreCase("Yamaha")) {
             totalPrice += 50;
         }
         return totalPrice;
@@ -26,17 +26,17 @@ public class F1Article extends Article {
 
     @Override
     public int calculateScore() {
-        final int BASE_SCORE = 4;
+        final int BASE_SCORE = 3;
         int totalScore = BASE_SCORE;
 
-        if (this.team.equalsIgnoreCase("Ferrari") || this.team.equalsIgnoreCase("Mercedes")) {
-            totalScore += 2;
+        if (this.team.equalsIgnoreCase("Honda") || this.team.equalsIgnoreCase("Yamaha")) {
+            totalScore += 3;
         }
         return totalScore;
     }
 
     @Override
     public String toString() {
-        return "\n\tFormula 1 {" + super.toString() + ", Team: " + this.team + "}";
+        return "\n\tMotorcycling {" + super.toString() + ", Team: " + this.team + "}";
     }
 }

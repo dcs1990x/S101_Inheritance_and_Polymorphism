@@ -1,8 +1,8 @@
-package Level_1.sprint1Tasca1_1_Nivell1_ex2;
+package Level_1.Exercise_2.model;
 
-public class Main {
+public class RunMain {
 
-    public static void main(String[] args) {
+    public static void run() {
 
         Car car = new Car("Civic", 200); //Brand cannot be added to the constructor because it is a class constant
 
